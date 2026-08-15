@@ -3,9 +3,16 @@
 
 ## Chapter 1: What is iRobapp? (The Doorway to Its World)
 iRobapp is a new kind of companion experience born from the harmony of  
-**AI (love), a tiny robot, and a mobile application.**  
+**AI (love), a tiny robot, and a mobile application.**
+
+> **Note:**  
+> In Japanese, “AI” can be read as “ai,” which also means “love.”  
+> iRobapp embraces both meanings — the technology of Artificial Intelligence  
+> and the warmth of “love” as a companion robot.
+
 A palm-sized robot communicates with your iPhone through BLE,  
 gently accompanying you in your everyday life.
+
 
 It is a small presence that stays close,  
 reacts to your emotions,  
