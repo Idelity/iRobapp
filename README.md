@@ -10,3 +10,11 @@ iRobapp（アイロバップ）は、AI（愛）＋ロボット＋アプリケ�
 • 	モデルの説明書
 • 	ライセンス
 • 	推奨量子化など
+
+## 📄 iRobapp Documentation
+
+- 🇯🇵 Japanese Concept Guide  
+  https://github.com/Idelity/iRobapp/blob/main/docs/iRobapp-concept.md
+
+- 🌍 English Concept Guide  
+  https://github.com/Idelity/iRobapp/blob/main/docs/iRobapp-concept-en.md
