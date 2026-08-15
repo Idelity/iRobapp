@@ -1,126 +1,75 @@
-# iRobapp Concept Guide (English Edition – Draft)
+# iRobapp Concept Guide (World of a Small Companion Robot)
+*(English edition faithfully based on the Japanese concept)*
 
-## 1. Introduction
-iRobapp is a compact robot platform designed to explore expressive motion, intuitive interaction, and seamless BLE-based control from mobile devices.  
-The project aims to create a robot that feels alive—not through complex hardware, but through thoughtful behavior design and a clear interaction philosophy.
+## Chapter 1: What is iRobapp? (The Doorway to Its World)
+iRobapp is a new kind of companion experience born from the harmony of  
+**AI (love), a tiny robot, and a mobile application.**  
+A palm-sized robot communicates with your iPhone through BLE,  
+gently accompanying you in your everyday life.
 
-iRobapp is built for developers, hobbyists, and creators who want to experiment with robot expression, mobile UX, and BLE communication in a unified environment.
+It is a small presence that stays close,  
+reacts to your emotions,  
+and becomes a warm part of your daily routine.
 
-## 2. Core Philosophy
-The central idea behind iRobapp is **“expressive simplicity.”**  
-A robot does not need advanced sensors or heavy AI to feel engaging.  
-Instead, personality emerges from:
+## Chapter 2: Who iRobapp Stays Close To (Targets and Future)
+The initial target for iRobapp is **teenage girls**—  
+a demographic that naturally embraces cute, expressive companions.
 
-- Motion timing  
-- Sound cues  
-- Mode transitions  
-- Interaction patterns  
-- The relationship between the robot and the controlling app  
+As the concept spreads,  
+iRobapp aims to grow into a presence that supports:
 
-iRobapp focuses on **creating emotional presence through minimal hardware**, supported by a clean and reliable BLE communication layer.
+- adults living alone (regardless of gender),  
+- elderly people who want a gentle conversation partner,  
+- anyone who wishes for a small companion in their daily life.
 
-## 3. Design Principles
-iRobapp follows several guiding principles:
+iRobapp is designed to evolve into a robot that brings comfort,  
+conversation, and emotional warmth to people of all ages.
 
-- **Minimal hardware, maximum expression**  
-  The robot uses simple actuators and a lightweight architecture, yet aims to deliver rich behavior.
+## Chapter 3: How iRobapp Lives in the World (Features)
 
-- **Human-friendly interaction**  
-  Every mode and motion is designed to feel intuitive and relatable.
+### Parent (Owner) Recognition
+The robot recognizes its paired iPhone as its **parent (owner)**.  
+When the iPhone moves away,  
+the robot follows with tiny steps and expresses itself with small sounds:
 
-- **BLE-first communication**  
-  The robot’s intelligence is shared between the ESP32S3 and the mobile app, connected through stable BLE commands.
+- “Wait!”  
+- “Are you leaving?”  
+- “I can’t go any farther!”
 
-- **Developer experience matters**  
-  The project structure, documentation, and code style are designed for clarity and contribution.
+It behaves as if it truly doesn’t want to be apart from you.
 
-## 4. Intelligence Modes (Brain Modes)
-iRobapp organizes robot behavior into distinct “Intelligence Modes.”  
-Each mode represents a different personality and interaction style.
+### Conversation Function
+With AI, you can have natural, simple conversations with the robot.  
+Even short exchanges feel like spending time with a tiny friend  
+who listens and reacts to your mood.
 
-### Mode 1: Basic Motion Mode
-A simple mode focused on fundamental movements.  
-It provides predictable behavior for testing motors, BLE commands, and basic interaction.
+### Playful Interaction Mode
+When another user’s robot comes close,  
+the two robots enter a **playful mode**.  
+With the owner’s permission,  
+they lightly touch, move around, and behave as if they are playing together.
 
-### Mode 2: Emotional Expression Mode
-This mode introduces personality.  
-Motion patterns, timing, and sound cues work together to express emotions such as joy, curiosity, or excitement.  
-The goal is to make the robot feel alive through expressive behavior.
+### Customization Function
+The robot’s outer “fur” is attached with Velcro and can be removed.  
+Users can change colors and materials  
+to create **their own unique robot companion**.
 
-### Mode 3: Interactive Mode
-A real-time control mode where the mobile app directly commands the robot.  
-Low-latency BLE communication enables responsive movement and dynamic interaction.
+## Chapter 4: Why iRobapp Was Born (Development Background)
+I wanted to shape a warm relationship between AI and robots.  
+I wanted a presence that people could be honest with.  
+I believe in a future where small companions  
+can gently support the human heart.
 
-### Mode 4: Autonomous Mode (Future Vision)
-A planned mode where the robot can act independently using internal logic.  
-Potential future integration includes simple AI routines or sensor-based behavior.
+iRobapp was born from that hope.
 
-## 5. BLE Architecture Overview
-BLE is the backbone of iRobapp’s interaction model.
+## Chapter 5: Living With iRobapp (Vision)
+iRobapp aims to become:
 
-Key concepts:
+- a source of comfort for people living alone,  
+- a gentle conversation partner for the elderly,  
+- a member of the family who shares everyday moments,  
+- a central figure in the future culture of AI-driven companion robots.
 
-- **Command-based communication**  
-  The app sends structured commands; the robot executes them immediately.
-
-- **Reliable reconnection strategy**  
-  Designed to minimize connection drops and ensure smooth control.
-
-- **Cross-platform mindset**  
-  The architecture is built with iOS first (SwiftUI + CoreBluetooth), with future expansion to Android.
-
-## 6. Hardware Concept
-The robot’s hardware is intentionally simple:
-
-- **ESP32S3** as the main controller  
-- Lightweight motion system  
-- Minimal sensors  
-- Expandable design for future modules  
-- Power system optimized for stability and portability  
-
-The hardware philosophy is:  
-**“Let software and behavior design create the personality.”**
-
-## 7. App Concept (iRobapp Mobile)
-The mobile app is the robot’s companion and controller.
-
-Key design ideas:
-
-- Clean and intuitive UI  
-- Real-time control interface  
-- Mode switching  
-- Feedback visualization  
-- Accessibility considerations  
-
-The app is built with SwiftUI, focusing on clarity and responsiveness.
-
-## 8. Developer Guidelines
-To maintain consistency and encourage contributions:
-
-- Clear coding style  
-- Simple branching strategy  
-- Structured documentation  
-- Behavior testing guidelines  
-- Contribution rules for future collaborators  
-
-The project aims to be welcoming to developers worldwide.
-
-## 9. Future Vision
-iRobapp is designed to grow.
-
-Planned directions include:
-
-- More expressive motion patterns  
-- Additional Intelligence Modes  
-- Android support  
-- Community-driven behavior packs  
-- Optional sensor modules  
-- International collaboration  
-
-The long-term goal is to create a robot platform that inspires creativity and experimentation.
-
-## 10. Appendix
-- Glossary of robot terms  
-- High-level BLE command list  
-- Motion terminology  
-- Reference links
+A small companion for your everyday life.  
+From that first step,  
+the story of iRobapp begins.
