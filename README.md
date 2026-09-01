@@ -19,6 +19,8 @@ iRobapp（アイロバップ）は、AI（愛）＋ロボット＋アプリケ�
 - 🌍 English Concept Guide  
   https://github.com/Idelity/iRobapp/blob/main/docs/iRobapp-concept-en.md
 
+
+
 > [!💡 お知らせ / Notice]
 > 現在、より軽量で開発が活発なサブプロジェクト **[iRobapp-mini](https://github.com/Idelity/iRobapp/edit/main/README.md)** を優先して公開・アップデートしています。
 > iOSデバイスやローカル環境での素早い動作を試したい方は、ぜひ `iRobapp-mini` リポジトリをご覧ください！
