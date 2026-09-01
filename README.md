@@ -13,7 +13,7 @@ iRobapp（アイロバップ）は、AI（愛）＋ロボット＋アプリケ�
 
 ## 📄 iRobapp Documentation
 
-- 🇯🇵 Japanese Concept Guide  
+- 🇯🇵 Japanese Concept Guide  （日本語コンセプトガイド） 
   https://github.com/Idelity/iRobapp/blob/main/docs/iRobapp-concept.md
 
 - 🌍 English Concept Guide  
